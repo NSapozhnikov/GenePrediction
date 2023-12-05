@@ -1,0 +1,75 @@
+% Adapted from an original template by Hlyni Arnórssyni, Reykjavik University, Iceland
+
+\documentclass{article}
+\input{File_Setup.tex}
+\usepackage{listings}
+\usepackage{lmodern}  % for bold teletype font
+\usepackage{amsmath}  % for \hookrightarrow
+\usepackage{xcolor}   % for \textcolor
+\usepackage{caption}
+\usepackage{subcaption}
+\bibliographystyle{plain}
+
+\lstset{
+  basicstyle=\ttfamily,
+  columns=fullflexible,
+  frame=single,
+  breaklines=true
+}
+
+\begin{document}
+%Title of the report, name of coworkers (of experiment and of report).
+\begin{titlepage}
+	\centering
+	\includegraphics[width=0.6\textwidth]{Graphics/BI_logo.png}\par
+	\vspace{5cm}
+
+	{\scshape\huge Tardigrade's possible genes of interest\par} 
+	\vspace{1cm}
+	{\Large \today\par}
+	\vfill
+	
+	%%%% PROJECT TITLE
+	{\huge\bfseries Homework number 4\par}
+	\vfill
+	
+	%%%% AUTHOR(S)
+	{\Large\itshape by Sapozhnikov N.A.}\par
+	\vspace{1.5cm}
+
+	\vfill
+
+
+	\vfill
+\end{titlepage}
+
+\newpage
+
+\section{Abstract}
+Tardigrades are the first known animal to survive in space. Thus we are trying to predict genes, responsible for utterly good DNA reparation, processing results of a TMS (Tandem Mass Spectrometry), looking for proteins that are most likely in a nucleus.
+
+\section{Introduction}
+Tardigrades, fascinatingly resilient microscopic animals also known as water bears or moss piglets, exhibit an unparalleled ability to endure extreme environmental conditions, ranging from the high altitudes of the Himalayas to the abyssal depths of the deep sea. Classified as "extremophiles," they can endure freezing temperatures, complete dehydration, high pressures exceeding 1,200 atmospheres, and radiation levels far surpassing those tolerated by other animals. Notably, tardigrades became the first known animals to survive the harsh conditions of space during the "Tardigrades In Space" (TARDIS) project in September 2007 \cite{Erdmann2017-bc}.
+
+This research not only expands our understanding of extremophiles but also holds potential implications for fields such as radiation biology and genetic engineering. Unlocking the secrets encoded in the tardigrade genome may pave the way for innovative strategies to enhance stress resistance in other organisms and even shed light on mechanisms relevant to human health and longevity.
+
+\section{Methods}
+To process our TMS data we create a local database consisting from our short peptides. Then we use local alignment-based search with diamond \cite{buchfink_fast_2015} utility.
+
+\section{Results}
+Results text
+
+\section{Discussion}
+Discussion text
+
+\newpage
+\section{Bibliography}
+
+\bibliography{references}
+%\newpage
+%\appendix
+%\section{Appendix}
+%Put data files, CAD drawings, additional sketches, etc.
+
+\end{document}
+

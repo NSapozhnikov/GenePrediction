@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.9.2)  5 DEC 2023 15:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.9.2)  6 DEC 2023 13:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1106,10 +1106,10 @@ Package rerunfilecheck Info: File `BI_Report_Template.out' has not changed.
 (rerunfilecheck)             Checksum: 4B7F8167C87834279672594DEE13C753;538.
  ) 
 Here is how much of TeX's memory you used:
- 38463 strings out of 474933
- 906094 string characters out of 5763794
- 1923801 words of memory out of 5000000
- 59458 multiletter control sequences out of 15000+600000
+ 38467 strings out of 474933
+ 906198 string characters out of 5763794
+ 1924801 words of memory out of 5000000
+ 59460 multiletter control sequences out of 15000+600000
  587947 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  104i,5n,106p,809b,936s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1118,10 +1118,10 @@ Here is how much of TeX's memory you used:
 /type1/public/lm/lmr10.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/lm/lm
 r12.pfb><d:/texlive/2023/texmf-dist/fonts/type1/public/lm/lmri10.pfb><d:/texliv
 e/2023/texmf-dist/fonts/type1/public/lm/lmri12.pfb>
-Output written on BI_Report_Template.pdf (3 pages, 151611 bytes).
+Output written on BI_Report_Template.pdf (3 pages, 155822 bytes).
 PDF statistics:
- 92 PDF objects out of 1000 (max. 8388607)
- 69 compressed objects within 1 object stream
- 12 named destinations out of 1000 (max. 500000)
+ 97 PDF objects out of 1000 (max. 8388607)
+ 74 compressed objects within 1 object stream
+ 14 named destinations out of 1000 (max. 500000)
  81 words of extra memory for PDF output out of 10000 (max. 10000000)
 

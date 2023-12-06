@@ -8,7 +8,7 @@
 \usepackage{xcolor}   % for \textcolor
 \usepackage{caption}
 \usepackage{subcaption}
-\bibliographystyle{plain}
+\bibliographystyle{ieeetr}
 
 \lstset{
   basicstyle=\ttfamily,
@@ -54,10 +54,10 @@ Tardigrades, fascinatingly resilient microscopic animals also known as water bea
 This research not only expands our understanding of extremophiles but also holds potential implications for fields such as radiation biology and genetic engineering. Unlocking the secrets encoded in the tardigrade genome may pave the way for innovative strategies to enhance stress resistance in other organisms and even shed light on mechanisms relevant to human health and longevity.
 
 \section{Methods}
-To process our TMS data we create a local database consisting from our short peptides. Then we use local alignment-based search with diamond \cite{buchfink_fast_2015} utility.
+To process our TMS data we create a local database consisting from our short peptides. We used local alignment-based search with diamond \cite{buchfink_fast_2015} utility and blast with Protein-Protein BLAST 2.5.0. Then utilities TargetP \cite{armenteros_detecting_2019} and WoLF PSORT \cite{noauthor_wolf_nodate} were used to narrow down the amount of genes which are only take their effect in a nucleus. 
 
 \section{Results}
-Results text
+Diamond blasting showed only 2 genes: g4106.t1 and g12510.t1. Niether of these genes were predicted to be in a nucleus by both TargetP and WoLF PSORT. Blastp found 118 genes 34 of which were unique. The analysis with TargetP was performed, list of genes marked as signal peptides (SP) was obtained. Genes from this list were also analized with WoLF PSORT.
 
 \section{Discussion}
 Discussion text

@@ -1,13 +1,21 @@
 \begin{thebibliography}{1}
 
-\bibitem{buchfink_fast_2015}
-Benjamin Buchfink, Chao Xie, and Daniel~H Huson.
-\newblock Fast and sensitive protein alignment using {DIAMOND}.
-\newblock {\em Nature Methods}, 12(1):59--60, January 2015.
-
 \bibitem{Erdmann2017-bc}
-Weronika Erdmann and {\L}ukasz Kaczmarek.
-\newblock Tardigrades in space research - past and future.
-\newblock {\em Orig. Life Evol. Biosph.}, 47(4):545--553, December 2017.
+W.~Erdmann and {\L}.~Kaczmarek, ``Tardigrades in space research - past and
+  future,'' {\em Orig. Life Evol. Biosph.}, vol.~47, pp.~545--553, Dec. 2017.
+
+\bibitem{buchfink_fast_2015}
+B.~Buchfink, C.~Xie, and D.~H. Huson, ``Fast and sensitive protein alignment
+  using {DIAMOND},'' {\em Nature Methods}, vol.~12, pp.~59--60, Jan. 2015.
+
+\bibitem{armenteros_detecting_2019}
+J.~J.~A. Armenteros, M.~Salvatore, O.~Emanuelsson, O.~Winther, G.~v. Heijne,
+  A.~Elofsson, and H.~Nielsen, ``Detecting sequence signals in targeting
+  peptides using deep learning,'' {\em Life Science Alliance}, vol.~2, Oct.
+  2019.
+\newblock Publisher: Life Science Alliance Section: Methods.
+
+\bibitem{noauthor_wolf_nodate}
+``{WoLF} {PSORT}: {Protein} {Subcellular} {Localization} {Prediction}.''
 
 \end{thebibliography}

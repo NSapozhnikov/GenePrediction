@@ -8,6 +8,9 @@
 \usepackage{xcolor}   % for \textcolor
 \usepackage{caption}
 \usepackage{subcaption}
+\usepackage{tabularx}
+\usepackage{adjustbox}
+\usepackage{booktabs}
 \bibliographystyle{ieeetr}
 
 \lstset{
@@ -57,19 +60,17 @@ This research not only expands our understanding of extremophiles but also holds
 To process our TMS data we create a local database consisting from our short peptides. We used local alignment-based search with diamond \cite{buchfink_fast_2015} utility and blast with Protein-Protein BLAST 2.5.0. Then utilities TargetP \cite{armenteros_detecting_2019} and WoLF PSORT \cite{noauthor_wolf_nodate} were used to narrow down the amount of genes which are only take their effect in a nucleus. 
 
 \section{Results}
-Diamond blasting showed only 2 genes: g4106.t1 and g12510.t1. Niether of these genes were predicted to be in a nucleus by both TargetP and WoLF PSORT. Blastp found 118 genes 34 of which were unique. The analysis with TargetP was performed, list of genes marked as signal peptides (SP) was obtained. Genes from this list were also analized with WoLF PSORT.
+Diamond blasting showed only 2 genes: g4106.t1 and g12510.t1. Niether of these genes were predicted to be in a nucleus by both TargetP and WoLF PSORT. Blastp found 118 genes 34 of which were unique. Only 13 of those genes were present in our augustus data. For these 13 genes the analysis with TargetP was performed, list of genes marked as signal peptides (SP) was obtained. Genes were also analized with WoLF PSORT. All obtained tables were werged by gene names as keys.
 
 \section{Discussion}
-Discussion text
+The data obtained suggests no strong evidence of any genes being univocally associated with good surivability of tardigrades. However, this research reveals some insights about potential functions of analized genes. We suggest  genes to be experimentally further studied to recieve more information about their phylogeny and in vivo functionality.
 
 \newpage
 \section{Bibliography}
 
 \bibliography{references}
-%\newpage
-%\appendix
-%\section{Appendix}
-%Put data files, CAD drawings, additional sketches, etc.
+
+
 
 \end{document}
 
